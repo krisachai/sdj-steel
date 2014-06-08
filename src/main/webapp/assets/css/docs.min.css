@@ -1564,3 +1564,15 @@ h1[id] {
 .css .o,.css .o+.nt,.css .nt+.nt {
     color: #999;
 }
+div.backdrop-container {
+	behavior: url(assets/js/border-radius.htc);
+	padding: 0px 30px 30px 30px;
+	position: relative;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.30);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.30);
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.30);
+	zoom: 1;
+}
