@@ -203,8 +203,8 @@ nav {
 
 #sidebar_container { 
   float: right;
-  width: 244px;
-  margin: 0 0 0 0;
+  width: 204px;
+  margin: 20px 10px 10px 0px;
 }
 
 #context_indent{
@@ -214,7 +214,7 @@ nav {
 }
 .sidebar { 
   float: right;
-  width: 200px;
+  width: 160px;
   margin: 0 0 17px 0;
   padding: 0 15px 5px 13px;
 }
@@ -224,14 +224,14 @@ nav {
   font: 270% 'Yanone Kaffeesatz', "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-shadow:  #000 1px 1px;
   margin: 0 1px;
-  color: #FFE099;
+  color: #D1D1D1;
   text-transform: uppercase;
 }
 
 .sidebar h3 { 
   color: #FFE099;
-  font: 200% 'Yanone Kaffeesatz', "Helvetica Neue",Helvetica,Arial,sans-serif;
-  padding: 0 15px 5px 0;
+  font: 180% 'Yanone Kaffeesatz', "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 10px 5px 5px 0;
 }
 
 .sidebar ul { 
@@ -254,7 +254,7 @@ nav {
 .content { 
   text-align: left;
   width: 580px;
-  margin: 0 10px 15px 5px;
+  margin: 20px 20px 15px 20px;
   float: left;
   font-size: 120%;
   padding: 25px 0 0 0;
