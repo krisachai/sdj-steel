@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>CSS3_photo_dark</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+                <div id="logo">
+                    <div id="logo_text">
+                        <!-- class="logo_colour", allows you to change the colour of the text -->
+                        <h1><a href="index.html">แสงดีจริงค้าเหล็ก</a></h1>
+                        <h5>จำหน่ายขายผลิตภัณฑ์สินค้าเหล็กรูปพรรณทุกชนิด</h5>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="sf-menu" id="nav">
+                        <li ><a href="index.html">หน้าหลัก</a></li>
+
+                        <li class="selected"><a href="page.html">สินค้าและบริการ</a></li>
+                        <li ><a href="contact.html">ติดต่อเรา</a></li>
+                    </ul>
+                </nav>
+            </header>
+    <div id="site_content">
+      <ul id="images">
+        <li><img src="images/steel_pipe.JPG" width="600" height="300" alt="photo_one" /></li>
+        <li><img src="images/steel_construction.jpg" width="600" height="300" alt="photo_two" /></li>
+        <li><img src="images/steel_flatbar.jpg" width="600" height="300" alt="photo_three" /></li>
+        <li><img src="images/steel_ibeam.jpg" width="600" height="300" alt="photo_four" /></li>
+        <li><img src="images/steel_plate.jpeg" width="600" height="300" alt="photo_five" /></li>
+        <li><img src="images/steel_sq.jpeg" width="600" height="300" alt="photo_photo_dark" /></li>
+      </ul>
+      <div id="sidebar_container">
+        
+      </div>
+      <div class="content">
+        <h1>สินค้าและบริการ</h1>
+        <p>ทางเราจัดจำหน่ายเหล็กหลายชนิดได้แก่ เหล็กเพลาขาว, เหล็กตัวซี, เหล็กฉาก, เหล็กรางน้ำ, เหล็กแบน, เหล็กไอบีม, เหล็กไวด์แฟรงค์, เหล็กเอชบีม, เหล็กแผ่น, เหล็กกล่อง, เหล็กข้ออ้อย, เหล็กเส้น, เหล็กกันสึก, เหล็กทนความร้อน, เหล็กแข็งใบมีด SCM440 ,เหล็กสปริง SK5 ,เหล็ก ASTM A36,เหล็ก ASTM A572 GR50,เหล็ก DIN ST37, เหล็ก DIN ST52-3, เหล็กรางรถไฟ, ลวดผูกเหล็ก, แป๊ปแบน, แป๊ปสี่เหลี่ยม, ท่อเอพีไอ, ท่อเหล็กดำ, ท่อสแตนเลส, สแตนเลส, วัสดุก่อสร้าง และเหล็กรูปพรรณทุกชนิดโดยลูกค้าสามารถเช็คราคาเหล็กได้ตามemail และเบอร์ที่ระบุไว้
+        </p>
+        <h2> เหล็กแผ่น </h2>
+        <img src="images/steel_plate.jpeg" width="600" height="300" alt="photo_five" />
+        <h2> เหล็กไอบีม </h2>
+        <img src="images/steel_ibeam.jpg" width="600" height="300" alt="photo_four" />
+      </div>
+    </div>
+    <footer>
+                <!--      <p style="font-size: small;">design from css3templates.co.uk</p>-->
+                <p style=";">  บริษัท แสงดีจริงค้าเหล็ก จำหน่ายเหล็ก บริการตัด ดัด ขึ้นรูปเหล็ก ครบวงจร</p>
+                <p> เลขที่ 78/50-51 ถนนเฉลิมพระเกียรติ แขวงหนองบอน เขตประเวศ กรุงเทพฯ 10250</p>
+
+            </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#images').kwicks({
+        max : 600,
+        spacing : 2
+      });
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>

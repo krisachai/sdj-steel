@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <title>CSS3_photo_dark</title>
+        <meta name="description" content="website description" />
+        <meta name="keywords" content="website keywords, website keywords" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- modernizr enables HTML5 elements and feature detects -->
+        <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+    </head>
+
+    <body>
+        <div id="main">
+            <header>
+                <div id="logo">
+                    <div id="logo_text">
+                        <!-- class="logo_colour", allows you to change the colour of the text -->
+                        <h1><a href="index.html">แสงดีจริงค้าเหล็ก</a></h1>
+                        <h5>จำหน่ายขายผลิตภัณฑ์สินค้าเหล็กรูปพรรณทุกชนิด</h5>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="sf-menu" id="nav">
+                        <li ><a href="index.html">หน้าหลัก</a></li>
+
+                        <li><a href="page.html">สินค้าและบริการ</a></li>
+                        <li class="selected"><a href="contact.html">ติดต่อเรา</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="site_content">
+                <ul id="images">
+                    <li><img src="images/steel_pipe.JPG" width="600" height="300" alt="photo_one" /></li>
+        <li><img src="images/steel_construction.jpg" width="600" height="300" alt="photo_two" /></li>
+        <li><img src="images/steel_flatbar.jpg" width="600" height="300" alt="photo_three" /></li>
+        <li><img src="images/steel_ibeam.jpg" width="600" height="300" alt="photo_four" /></li>
+        <li><img src="images/steel_plate.jpeg" width="600" height="300" alt="photo_five" /></li>
+        <li><img src="images/steel_sq.jpeg" width="600" height="300" alt="photo_photo_dark" /></li>
+        
+                </ul>
+                <div id="sidebar_container" style="">
+                    <div class="sidebar" style="width: 320px;">
+                    <h3> แผนที่ร้าน </h3>
+                    <div class="Flexible-container">
+                    <iframe src="https://mapsengine.google.com/map/embed?mid=zuOO3OLPcJ5M.k8ubquslQxag"></iframe>
+                    </div>
+                    </div>
+               
+                </div>
+                <div class="content">
+                    <h1>ติดต่อเรา</h1>
+                    <h3> เบอร์โทรศัพท์ </h3>
+                    <p> 02-743-3881 </p>
+                    <h3>อีเมลล์</h3>
+                    <a href="mailto:contact@sdjsteel.com">contact@sdjsteel.com</a>
+                    <h3> ที่อยู่ </h3>
+
+                    <p>เลขที่ 78/50-51 ถนนเฉลิมพระเกียรติ แขวงหนองบอน </p>
+                    <p>เขตประเวศ กรุงเทพฯ 10250</p>
+
+
+                    
+                </div>
+            </div>
+            <footer>
+                <!--      <p style="font-size: small;">design from css3templates.co.uk</p>-->
+                <p style=";">  บริษัท แสงดีจริงค้าเหล็ก จำหน่ายเหล็ก บริการตัด ดัด ขึ้นรูปเหล็ก ครบวงจร</p>
+                <p> เลขที่ 78/50-51 ถนนเฉลิมพระเกียรติ แขวงหนองบอน เขตประเวศ กรุงเทพฯ 10250</p>
+
+            </footer>
+        </div>
+        <p>&nbsp;</p>
+        <!-- javascript at the bottom for fast page loading -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+        <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+        <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#images').kwicks({
+                    max: 600,
+                    spacing: 2
+                });
+                $('ul.sf-menu').sooperfish();
+            });
+        </script>
+    </body>
+</html>
