@@ -203,10 +203,15 @@ nav {
 
 #sidebar_container { 
   float: right;
-  width: 324px;
-  margin: 25px 0 0 0;
+  width: 244px;
+  margin: 0 0 0 0;
 }
 
+#context_indent{
+    
+    margin-left: 50px;
+    
+}
 .sidebar { 
   float: right;
   width: 200px;
@@ -248,8 +253,8 @@ nav {
 
 .content { 
   text-align: left;
-  width: 600px;
-  margin: 0 0 15px 0;
+  width: 580px;
+  margin: 0 10px 15px 5px;
   float: left;
   font-size: 120%;
   padding: 25px 0 0 0;
