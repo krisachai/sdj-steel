@@ -197,6 +197,8 @@ nav {
   overflow: hidden;
   margin: 0px auto 0 auto;
   padding: 15px 0 15px 0;
+  background-color: #444;
+  text-indent: 10px;
 } 
 
 #sidebar_container { 
@@ -251,6 +253,8 @@ nav {
   float: left;
   font-size: 120%;
   padding: 25px 0 0 0;
+  border: 1px solid #444;
+  background-color: #444;
 }
   
 .content ul { 
@@ -533,4 +537,16 @@ ul#images li {
     left: 0;
     width: 100%;
     height: 100%;
+}
+div.backdrop-container {
+	behavior: url(../../assets/js/border-radius.htc);
+	padding: 0px 30px 30px 30px;
+	position: relative;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #FFFFF;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.30);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.30);
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.30);
+	zoom: 1;
 }
