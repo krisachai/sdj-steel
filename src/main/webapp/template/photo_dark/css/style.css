@@ -167,12 +167,12 @@ header {
 
 #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover { 
   padding: 20px 0 0 0;
-  color: #1F88A7;
+  color: #999;
   text-decoration: none;
 }
 
 #logo_text h1 a .logo_colour { 
-  color: #09D4FF;
+  color: #999;
 }
 
 #logo_text a:hover .logo_colour { 
