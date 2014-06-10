@@ -71,7 +71,7 @@ h4, h6 {
 
 h5, h6 { 
   color: #BBB;
-  font: italic 95% "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: italic 120% "Helvetica Neue",Helvetica,Arial,sans-serif;
   letter-spacing: normal;
   padding: 0 0 15px 0;
 }
@@ -150,7 +150,7 @@ header {
 }
 
 #logo { 
-  width: 300px;
+  width: 330px;
   height: 125px;
   background: transparent;
   color: #FFF;
