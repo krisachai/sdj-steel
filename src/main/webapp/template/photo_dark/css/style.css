@@ -146,7 +146,7 @@ ol li {
 
 header { 
   background: transparent;
-  height: 125px;
+  height: 260px;
 }
 
 #logo { 
@@ -187,10 +187,11 @@ header {
 
 nav { 
   height: 44px;
-  width: 600px;
+  width: 930px;
   float: right;
-  margin: 75px auto 0 auto;
+  margin: 220px auto 0 auto;
   color: #222;
+  
 } 
 
 #site_content { 
