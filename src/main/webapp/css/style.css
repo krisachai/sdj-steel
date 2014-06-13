@@ -9,7 +9,14 @@
     src: url('../fonts/NewsCycle-Regular.eot'); 
     src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
 } 
-
+@font-face {
+ font-family: Supermarket;
+ src: url("supermarket/supermarket.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: Supermarket;
+ src: url("supermarket/supermarket.ttf") /* TTF file for CSS3 browsers */
+}
 html { 
   height: 100%;
 }
@@ -25,7 +32,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 }
 
 body { 
-  font: normal .80em "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: normal 0.8em "Supermarket",Helvetica,Arial,sans-serif;
   background: #222;
   color: #AAA;
 }
@@ -46,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 { 
-  font: normal 140% "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: normal 140% "Supermarket","Helvetica Neue",Helvetica,Arial,sans-serif;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
   color: #FFF;
@@ -66,12 +73,12 @@ h3 {
 h4, h6 { 
   color: #FFF;
   padding: 0 0 5px 0;
-  font: normal 150% 'Yanone kaffeesatz', "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: normal 150% "Supermarket", "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 h5, h6 { 
   color: #BBB;
-  font: italic 120% "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: italic 120% "Supermarket","Helvetica Neue",Helvetica,Arial,sans-serif;
   letter-spacing: normal;
   padding: 0 0 15px 0;
 }
@@ -147,6 +154,7 @@ ol li {
 header { 
   background: transparent;
   height: 125px;
+  margin-bottom: 20px;
 }
 
 #logo { 
@@ -159,7 +167,7 @@ header {
 }
 
 #logo h1, #logo h2 { 
-  font: normal 320% 'News Cycle', "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: normal 320% "Supermarket","Helvetica Neue",Helvetica,Arial,sans-serif;
   border-bottom: 0;
   text-transform: none;
   margin: 0;
@@ -169,10 +177,16 @@ header {
   padding: 20px 0 0 0;
   color: #999;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 200%;
+
+  
 }
 
 #logo_text h1 a .logo_colour { 
   color: #999;
+  
+ 
 }
 
 #logo_text a:hover .logo_colour { 
@@ -222,7 +236,7 @@ nav {
   
 .sidebar h3, .content h1 { 
   padding: 0 15px 20px 0;
-  font: 270% 'Yanone Kaffeesatz', "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: 270% 'Supermarket', "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-shadow:  #000 1px 1px;
   margin: 0 1px;
   color: #D1D1D1;
@@ -231,7 +245,7 @@ nav {
 
 .sidebar h3 { 
   color: #FFE099;
-  font: 180% 'Yanone Kaffeesatz', "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: 190% 'Supermarket', "Helvetica Neue",Helvetica,Arial,sans-serif;
   padding: 10px 5px 5px 0;
 }
 
