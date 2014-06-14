@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2, h3 { 
   font: normal 140% "Supermarket","Helvetica Neue",Helvetica,Arial,sans-serif;
-  margin: 0 0 15px 0;
+  margin: 0 0 0px 0;
   padding: 15px 0 5px 0;
   color: #FFF;
 }
@@ -80,7 +80,7 @@ h5, h6 {
   color: #BBB;
   font: italic 120% "Supermarket","Helvetica Neue",Helvetica,Arial,sans-serif;
   letter-spacing: normal;
-  padding: 0 0 15px 0;
+  padding: 0 0 0 10px;
 }
 
 a, a:hover { 
@@ -213,7 +213,7 @@ nav {
   margin: 0px auto 0 auto;
   padding: 15px 0 15px 0;
   background-color: #444;
-  text-indent: 10px;
+  text-indent: 5px;
 } 
 
 #sidebar_container { 
