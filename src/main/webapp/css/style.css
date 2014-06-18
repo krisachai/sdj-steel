@@ -80,7 +80,7 @@ h5, h6 {
   color: #BBB;
   font: italic 120% "Supermarket","Helvetica Neue",Helvetica,Arial,sans-serif;
   letter-spacing: normal;
-  padding: 0 0 0 10px;
+  padding: 0 0 0 0px;
 }
 
 a, a:hover { 

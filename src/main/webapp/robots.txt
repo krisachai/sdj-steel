@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.sdjsteel.com/sitemap.xml
