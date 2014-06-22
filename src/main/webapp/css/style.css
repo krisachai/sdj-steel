@@ -162,7 +162,9 @@ header {
   height: 125px;
   background: transparent;
   color: #FFF;
-  padding: 0;
+  padding-top: 20px;
+  
+  
   float: left;
 }
 
